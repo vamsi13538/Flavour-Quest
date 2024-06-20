@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=BxAQXVI8jOHW&format=png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7e99a9e738.js" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <!-- Navbar section starts here -->
+        <nav class="navBar" id="navBar">
+            <div class="logoImageMainContainer">
+                <div class="logoImageContainer">
+                    <a href="index.html"><img src="https://imgcdn.stablediffusionweb.com/2024/6/20/a96ae214-b19a-4067-85b6-b261a874e837.jpg" alt="No_Img"></a>
+                </div>
+                <h3 class="logoName">Flavour<br>Quest <sup><small>&reg;</small></sup></h3>
+            </div>
+            <div class="navListItems">
+                <ul>
+                    <li class="about"><a href="#aboutContainer">About</a></li>
+                    <li class="foodJoke"><a href="#jokeContainer">Joke</a></li>
+                    <li class="recipeFinder"><a href="#searchBarContainer">Search</a></li>
+                    <li class="contactUs"><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- Navbar section ends here -->
+    <!-- About section starts here -->
+    <section class="aboutContainer" id="aboutContainer">
+        <div class="aboutTextContainer">
+            <h1>Discover Recipes Perfect for Your Family 🍽️</h1>
+            <p>Why choose us? We understand the challenges of modern family life—whether you're dealing with picky eaters, busy schedules, or simply seeking new culinary adventures. Our recipe finder empowers you to explore a wide array of options tailored to your needs. From kid-friendly favorites 🍕 and quick-prep wonders ⏱️ to healthy alternatives 🥗 and indulgent treats 🍰, find meals that delight every member of your family. Let us make mealtime a joyous experience, one recipe at a time!"</p>
+        </div>
+    </section>
+    <!-- About section ends here -->
+    <!-- Joke section starts here -->
+    <section class="jokeContainer" id="jokeContainer">
+        <h2>Food Joke</h2>
+        <h3 class="foodJokeRandom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, numquam.</h3>
+    </section>
+    <!-- Joke section ends here -->
+    <!-- Searchbar section starts here -->
+    <section class="searchBarContainer" id="searchBarContainer">
+        <h2>Recipe Finder</h2>
+        <p>Discover mouth-watering recipes faster than you can say 'chop chop'—start typing your cravings and watch as culinary inspiration unfolds before your eyes!</p>
+        <div class="searchBarInputContainer">
+            <input type="text" placeholder="Search your recipe here..." id="recipeInput">
+            <i class="fa-solid fa-xmark" id="closeIcon"></i>
+            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </div>
+    </section>
+    <!-- Searchbar section ends here -->
+    <!-- Recipe results section starts here -->
+    <section class="recipeResults">
+        <!-- <div class="recipeResultsCard">
+            <div class="recipeImageContainer">
+                <img src="Ninja_Logo_Graffiti.jpg" alt="No_Img">
+            </div>
+            <div class="recipeInformationBox">
+                <h3>Recipe Title</h3>
+                <div class="recipeDetailsContent">
+                     <p><b>Time: </b>30 Min</p>
+                     <p><b>Cuisine: </b>Indian</p>
+                </div>
+                <div class="viewInstrucionsButton">
+                    <button type="button" id="viewInstrucionsButton">
+                        <a href="#">View Instrucions</a>
+                    </button>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- Recipe results section ends here -->
+    <!-- Footer section starts here -->
+    <footer id="contactUs">
+        <div class="rightsContainer">
+            <div class="rightsImageContainer">
+                <img src="https://imgcdn.stablediffusionweb.com/2024/6/20/a96ae214-b19a-4067-85b6-b261a874e837.jpg" alt="No_Img">
+            </div>
+            <p>All rights are reserved | Flavour Quest <sup><small>&reg;</small></sup> 2024</p>
+        </div>
+        <div class="contactUsMainContainer">
+            <div class="contactUsContainer">
+                <h4>Contact Us</h4>
+                <ul class="contactUsList">
+                    <li class="LinkedIn"><a href="https://www.linkedin.com/in/vamsim13538/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+                    <li class="Github"><a href="https://github.com/vamsi13538" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li class="Mail"><a href="mailto:m.vamsim23@gmail.com" target="_blank" title="m.vamsim23@gmail.com"><i class="fa-regular fa-envelope"></i> Mail</a></li>
+                    <li class="Instagram"><a href="https://www.instagram.com/vamsi_13_5_3_8/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            <div class="moreAppsContainer">
+                <h4>Explore More</h4>
+                <ul class="moreAppsList">
+                    <li><a href="https://github.com/vamsi13538/Weather-Wizard.git" target="_blank"><i class="fa-solid fa-cloud-bolt"></i> Weather Wizard</a></li>
+                    <li><a href="https://github.com/vamsi13538/Scramble-Words.git" target="_blank"><i class="fa-solid fa-braille"></i> Scramble Words Game</a></li>
+                    <li><a href="https://github.com/vamsi13538/Words-Typing-Game.git" target="_blank"><i class="fa-regular fa-keyboard"></i> Words Typing Game</a></li>
+                    <li><a href="https://github.com/vamsi13538/Number_Facts_App.git" target="_blank"><i class="fa-solid fa-arrow-up-9-1"></i> Number Facts</a></li>
+                </ul>
+            </div>
+        <!-- </div> -->
+    </footer>
+<!-- Footer section ends here -->
+<!-- Goto top section starts here -->
+<div class="goToTop">
+    <button type="button"><a href="#">GoTo Top <i class="fa-solid fa-arrow-up"></i></a></button>
+</div>
+<!-- Goto top section ends here -->
+
+    <script src="main.js"></script>
+</body>
+</html>
